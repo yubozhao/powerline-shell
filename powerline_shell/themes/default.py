@@ -61,6 +61,9 @@ class DefaultColor(object):
     VIRTUAL_ENV_BG = 35  # a mid-tone green
     VIRTUAL_ENV_FG = 00
 
+    AWS_PROFILE_FG = 39
+    AWS_PROFILE_BG = 238
+
 class Color(DefaultColor):
     """
     This subclass is required when the user chooses to use 'default' theme.
